@@ -332,10 +332,15 @@ footer p {
 
 #contact-section img{
     animation-name: catch-the-cat;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 
 }
 
+#contact-section img:hover{
+    animation-name: catch-the-cat;
+    animation-play-state: paused;
+
+}
 
